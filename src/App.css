@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  background-color: hsl(217, 28%, 15%);
+}
+html {
+}
+body {
+  /* background-image: url("./images/bg-curvy-desktop.svg"); */
+  background-color: hsl(217, 28%, 15%);
+}
+h1 {
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.section-1 {
+  background-color: hsl(217, 28%, 15%);
+}
+#top-container {
+  position: relative;
+  background-color: hsl(217, 28%, 15%);
+  margin: auto;
+  width: 1440px;
+  height: 1250px;
+  padding: 10px 0px 50px 0px;
+}
+.section-2 {
+  width: 100%;
+  /* background-color: hsl(218, 28%, 13%); */
+  /* background-color: hsl(217, 28%, 15%); */
+}
+.section-3 {
+  background-color: hsl(218, 28%, 13%);
+  height: 30rem;
+}
+#curvy-background {
+  width: 100%;
+  margin-top: 7rem;
+}
+@media only screen and (min-width: 30rem) {
+  .section-3 {
+    height: 15rem;
+  }
+}
